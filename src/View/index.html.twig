@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<div class="container">
+            <div class="row">
+    {% for pokemons in pokemons  %}
+        
+                <div class="col-4">
+                    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Pokemon</div>
+                        <div class="card-body">
+                            {{ pokemons }}
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+        
+    {% endfor %}
+        </div>
+        </div>
+    
+{% endblock %}

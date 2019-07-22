@@ -1,0 +1,13 @@
+{
+    "name": "quentin/les-vues-avec-twig",
+    "description": "\"quete\"",
+    "authors": [
+        {
+            "name": "silverquent",
+            "email": "dasilva.quentin33@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.11"
+    }
+}
